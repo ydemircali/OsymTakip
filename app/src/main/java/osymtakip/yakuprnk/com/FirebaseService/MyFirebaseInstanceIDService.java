@@ -40,7 +40,7 @@ public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
     private void set_token(final String token)
     {
         String tag_string_req = "req_appointment";
-        String url="http://www.refcam.com.tr/ydemircali/OsymTakip/set_token.php";
+        String url="....";
         StringRequest strReq = new StringRequest(Request.Method.POST,
                 url, new Response.Listener<String>() {
 
