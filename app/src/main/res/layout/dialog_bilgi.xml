@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_favorite_card">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Bilgi"
+            android:id="@+id/txt_bilgi"
+            android:textSize="18sp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/screen"
+            android:src="@mipmap/bildirimornek"
+            android:layout_below="@+id/txt_bilgi"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"/>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@color/colorOsym"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/screen"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/btn_dialog"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="TAMAM"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

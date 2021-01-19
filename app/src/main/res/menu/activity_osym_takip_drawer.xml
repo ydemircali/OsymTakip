@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/gruop1">
+        <item
+            android:id="@+id/anasayfa"
+            android:checked="true"
+            android:icon="@mipmap/home"
+            android:title="Ana Sayfa" />
+        <item
+            android:id="@+id/favorisinav"
+            android:icon="@mipmap/favorite"
+            android:title="Favori Sınavlar" />
+        <item
+            android:id="@+id/tumsinavlar"
+            android:icon="@mipmap/menu"
+            android:title="Sınav Takvimi" />
+        <item
+            android:id="@+id/duyuru"
+            android:icon="@mipmap/duyuru"
+            android:title="Duyurular" />
+
+    </group>
+    <group android:checkableBehavior="single"
+          android:id="@+id/gruop2">
+        <item
+            android:id="@+id/ayarlar"
+            android:icon="@mipmap/ayarlar"
+            android:title="Ayarlar" />
+        <item
+            android:id="@+id/hakkimizda"
+            android:icon="@mipmap/info"
+            android:title="Uygulama" />
+
+    </group>
+
+</menu>

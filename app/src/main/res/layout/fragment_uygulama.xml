@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/fragment_uygulama"
+    tools:context="osymtakip.yakuprnk.com.fragments.Uygulama"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:elevation="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/uygu_hakkinda"
+            android:textColor="@color/colorOsym"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:padding="5dp"
+            android:gravity="center"
+            android:text="Merhaba,\nÖsym Takip,güncel sınav takvimini ve güncel duyuruları, daha pratik şekilde takip edebilme adına geliştirilmiştir.\nAyrıca bu uygulama sayesinde,Güncel duyuruların bildirimlerini anlık olarak alacaksınız.\nGüncellemelerde herhangi bir aksaklık oluşması takdirde lütfen geliştiriciye bilgi veriniz.   "
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="70dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="developed by @ Yakup Demirçalı"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

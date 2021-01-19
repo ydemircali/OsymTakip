@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_favorite_card">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/duyuru_detay"
+            android:textColor="@color/colorOsym"
+            android:text="Duyuru Detay"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/duyuru_detay"
+            android:layout_marginTop="10dp"
+            android:text="Duyuru"
+            android:id="@+id/txt_duyuru"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/txt_duyuru"
+            android:text="Link"
+            android:autoLink="web"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:id="@+id/txt_duyuru_link"
+            android:textSize="18sp"
+            android:layout_marginBottom="5dp"
+            />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@color/colorOsym"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/txt_duyuru_link"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/btn_dialog"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="TAMAM"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

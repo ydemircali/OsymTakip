@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_favorite_card">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:elevation="2dp"
+            android:text="Sınav Detayı"
+            android:textColor="@color/colorOsym"
+            android:textSize="20dp"
+
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp">
+
+        <TextView
+            android:id="@+id/sinav_adi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="Sınav Adı"
+            android:textColor="@color/colorOsym"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sinav_detay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/sinav_adi"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Sınav Detay"
+            android:textSize="18sp" />
+        <TextView
+            android:id="@+id/sinav_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/sinav_detay"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:autoLink="web"
+            android:text="Link"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="5dp">
+
+        <TextView
+            android:id="@+id/txtbasvuru"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Başvuru :" />
+
+        <TextView
+            android:id="@+id/basvuru_tarihi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/txtbasvuru"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@+id/txtbasvuru"
+            android:layout_toRightOf="@+id/txtbasvuru"
+            android:text="Başvuru Tarihi"
+            android:textColor="@color/colorOsym"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/txtsinav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtbasvuru"
+            android:layout_alignStart="@+id/txtbasvuru"
+            android:layout_below="@+id/basvuru_tarihi"
+            android:layout_marginTop="10dp"
+            android:text="Sınav :" />
+
+        <TextView
+            android:id="@+id/sinav_tarihi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sınav Tarihi"
+            android:textColor="@color/colorOsym"
+            android:textStyle="bold"
+            android:layout_above="@+id/textView8"
+            android:layout_alignLeft="@+id/basvuru_tarihi"
+            android:layout_alignStart="@+id/basvuru_tarihi"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/txtsinav"
+            android:layout_alignStart="@+id/txtsinav"
+            android:layout_below="@+id/txtsinav"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Sonuç :" />
+
+        <TextView
+            android:id="@+id/sonuc_tarihi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView8"
+            android:layout_alignLeft="@+id/sinav_tarihi"
+            android:layout_alignStart="@+id/sinav_tarihi"
+            android:textColor="@color/colorOsym"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:text="Sonuç Tarihi" />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@color/colorOsym"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/sonuc_tarihi"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:id="@+id/btn_dialog"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:text="TAMAM"/>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

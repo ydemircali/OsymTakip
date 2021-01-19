@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "685199181375",
+    "firebase_url": "https://osym-takip-push.firebaseio.com",
+    "project_id": "osym-takip-push",
+    "storage_bucket": "osym-takip-push.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685199181375:android:6f7cf5e034d16ffa",
+        "android_client_info": {
+          "package_name": "osymtakip.yakuprnk.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685199181375-b0q4sdsdnh61dv9g474808nljbqvntd9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "osymtakip.yakuprnk.com",
+            "certificate_hash": "46b3487f5e87064694cabf818101e725e55c0a8f"
+          }
+        },
+        {
+          "client_id": "685199181375-5s12q6fgsta6uq5ah0gec2tks7raru3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXO_uzrbdPmT3wO9_m6oH_1Uf64itzTEs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685199181375-5s12q6fgsta6uq5ah0gec2tks7raru3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

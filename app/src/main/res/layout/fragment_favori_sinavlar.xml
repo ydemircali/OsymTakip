@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:orientation="vertical"
+    tools:context="osymtakip.yakuprnk.com.fragments.FavoriSinavlar"
+    android:weightSum="1">
+
+    <ListView
+        android:id="@+id/liste_favori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:fastScrollEnabled="true"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10dp" />
+    <RelativeLayout
+        android:id="@+id/emptyElement"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/layout_favorite_card"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Henüz Favori Sınav Eklemediniz.\nSınav Takvimi sekmesinden ekleyebilirsiniz."
+            android:textColor="@color/colorOsym"
+            android:textSize="18sp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            />
+
+    </RelativeLayout>
+</LinearLayout>
